@@ -1,0 +1,65 @@
+body::before {
+    display:block;
+    content: '';
+    height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+/* Basic Styles */
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Arima Madurai', cursive;
+}
+p {
+    font-family: 'Xanh Mono', monospace;
+}
+.boxes {
+    
+    color: #020202;
+}
+.bg-color,
+.bg-cus,
+.list-group-item,
+.accordion-button,
+.accordion-body  {
+background-color: #2b2a2a;
+color: rgb(242, 245, 250);
+}
+.crew {
+    background-color: #474746;
+    color: rgb(242, 245, 250);
+}
+
+.ht h1 span{
+    font-family: 'Rampart One', cursive;
+}
+/* Nav Bar */
+.navbar-brand  {
+    font-size: 2em;
+    font-family: 'Rampart One', cursive;
+    color: rgb(242, 245, 250);
+    
+}
+#navmenu a {
+    color: rgb(227, 229, 233);
+    font-family: 'Xanh Mono', monospace;
+    font-size: 1.3rem;
+    
+}
+
+/* contact section */
+.contact {
+    background: url(mil.jpg) ;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    
+}
+.copyright {
+    font-family: 'Xanh Mono', monospace;
+    color: rgb(222, 227, 231);
+}
+/* Newsletter signup */
+@media(min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+}
